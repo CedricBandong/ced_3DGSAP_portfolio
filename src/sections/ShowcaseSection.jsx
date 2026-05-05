@@ -69,6 +69,18 @@ const AppShowcase = ({ language }) => {
           </div>
 
           <div className="project-list-wrapper">
+            <div className="project animated-card" ref={othersRef}>
+              <div className="image-wrapper bg-[#18181B]">
+                <img src="/images/project3.png" alt="Others" />
+              </div>
+              <a href="https://saas-nynq8nshv-cedricbandongs-projects.vercel.app/"
+                 className="group relative inline-block"
+              >
+                  <h2>LMS SaaS Platform</h2>
+                  <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full" />
+              </a>
+            </div>
+            
             <div className="project animated-card" ref={startupRef}>
               <div className="image-wrapper bg-[#18181B]">
                 <img
@@ -84,17 +96,7 @@ const AppShowcase = ({ language }) => {
               </a>
             </div>
 
-            <div className="project animated-card" ref={othersRef}>
-              <div className="image-wrapper bg-[#18181B]">
-                <img src="/images/project3.png" alt="Others" />
-              </div>
-              <a href="https://saas-nynq8nshv-cedricbandongs-projects.vercel.app/"
-                 className="group relative inline-block"
-              >
-                  <h2>Learning Management System (LMS) SaaS platform</h2>
-                  <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full" />
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
