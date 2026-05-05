@@ -101,7 +101,7 @@ const Hero = ({ language }) => {
 
             {language === 'en'
               ? <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                  Hi, I’m Jeric, a developer based in Tokyo <br />
+                  Hi, I’m Cedric, a developer based in Manila <br />
                   with a passion for building apps <br />
                   that I believe can have a positive impact on well-being.
                 </p>
