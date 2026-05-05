@@ -318,14 +318,14 @@ const expLogos = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-    url: 'https://www.instagram.com/tokispherion/'
+    name: "github",
+    imgPath: "/images/github.png",
+    url: 'https://github.com/CedricBandong'
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    url: 'https://www.linkedin.com/in/bandong-jose-enrico-aba48527a/'
+    url: 'https://www.linkedin.com/in/cedric-bandong-b35419247/'
   },
 ];
 
