@@ -34,7 +34,7 @@ const NavBar = ({ language, setLanguage }) => {
         <a href="#hero" className="logo">
           {
             language === 'en'
-              ? "Jeric's 3D Portfolio Site"
+              ? "Cedric's 3D Portfolio Site"
               : "ジェリック 個人 3D ポートフォリオサイト"
           }
         </a>
@@ -69,14 +69,6 @@ const NavBar = ({ language, setLanguage }) => {
             </div>
           </a>
 
-          <button
-            onClick={() => setLanguage(language === "en" ? "jp" : "en")}
-            className="lang-btn group"
-          >
-            <div className="inner">
-              <span>{language === "en" ? "EN" : "JP"}</span>
-            </div>
-          </button>
         </div>
       </div>
     </header>

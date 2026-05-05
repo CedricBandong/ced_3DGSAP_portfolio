@@ -98,7 +98,7 @@ const TechStack = ({ language }) => {
           title={language === 'en' ? "How I Can Contribute & My Key Skills" : "私が貢献できることと主なスキル"}
           sub={language === 'en' ? "What I Bring to the Table" : "私が提供できる価値"}
         />
-        <div className="tech-grid">
+        <div className="tech-grid center-items mt-10">
           {/* Loop through the techStackIcons array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 
               card-border, tech-card, overflow-hidden, and group. The xl:rounded-full and rounded-lg 

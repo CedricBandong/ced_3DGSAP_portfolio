@@ -51,10 +51,9 @@ const jpWords = [
 ];
 
 const enCounterItems = [
-  { value: 10, suffix: " ", label: "Japan Work Experience" },
-  { value: 4, suffix: " ", label: "Philippines Work Experience" },
-  { value: 14, suffix: "+", label: "Work Projects Completed (est.)" },
-  { value: 40, suffix: "+", label: "Experiments (est.)" },
+  { value: 1, suffix: " ", label: "Work Experience" },
+  { value: 7, suffix: "+", label: "Work Projects Completed (est.)" },
+  { value: 21, suffix: "+", label: "Experiments (est.)" },
 ];
 
 const jpCounterItems = [
@@ -108,31 +107,13 @@ const textDisplayList = [
     textValue: "R E A C T",
   },
   {
-    textValue: "M A T E R I A L U I",
-  },
-  {
     textValue: "R E A C T N A T I V E",
-  },
-  {
-    textValue: "R E A C T N A T I V E",
-  },
-  {
-    textValue: "S W I F T U I",
   },
   {
     textValue: "T Y P E S C R I P T",
   },
   {
     textValue: "J A V A S C R I P T",
-  },
-  {
-    textValue: "N O D E J S",
-  },
-  {
-    textValue: "D J A N G O",
-  },
-  {
-    textValue: "F L A S K",
   },
   {
     textValue: "P Y T H O N",
@@ -193,10 +174,6 @@ const techStackImgs = [
     name: "Full-stack Developer",
     imgPath: "/images/logos/react.png",
   },
-  {
-    name: "Mobile Developer",
-    imgPath: "/images/logos/react.png",
-  },
 ];
 
 const jpTechStackImgs = [
@@ -208,10 +185,6 @@ const jpTechStackImgs = [
     "name": "フルスタック開発者",
     "imgPath": "/images/logos/react.png"
   },
-  {
-    "name": "モバイル開発者",
-    "imgPath": "/images/logos/react.png"
-  }
 ];
 
 const techStackIcons = [
@@ -224,12 +197,6 @@ const techStackIcons = [
   {
     name: "Full-stack Developer",
     modelPath: "/models/react_logo-transformed-1.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Mobile Developer",
-    modelPath: "/models/react_logo-transformed-2.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
@@ -258,51 +225,27 @@ const jpTechStackIcons = [
 
 const enExpCards = [
   {
-    review: "Served as the lead front-end developer for a salary management web platform, building and maintaining modular, responsive, and accessible interfaces using TypeScript, Next.js, and MUI. Focused on seamless API integration, design fidelity, and cross-functional collaboration while supporting iterative UI/UX improvements and resolving complex front-end issues.",
-    imgPath: "/images/nextjs.png",
-    logoPath: "/images/nextjs.png",
-    title: "Frontend Developer",
-    date: "November 2024 - Present",
-    responsibilities: [
-      "Led front-end development for a production web application from build to release.",
-      "Developed responsive user interfaces and integrated frontend systems with backend APIs.",
-      "Collaborated with designers, backend engineers, and stakeholders to deliver and refine features.",
-    ],
-  },
-  {
-    review: "Contributed to full-stack feature development and maintenance for a repository platform serving over 500 Japanese universities, leveraging Typescript, React, Bootstrap on the front end and Python with Flask on the back end. Coordinated tasks via Redmine, authored detailed test specifications, and ensured smooth project delivery through daily client meetings and bug resolution.",
+    review: "Served as the full-stack developer for a pickleball court reservation web platform, building and maintaining a responsive, end-to-end booking system using React and Supabase. Focused on seamless API integration — including Google Sheets for administrative record syncing and Resend for automated email confirmations — while ensuring a reliable and user-friendly reservation experience.",
     imgPath: "/images/react.png",
     logoPath: "/images/react.png",
     title: "Full Stack Developer",
-    date: "September 2020 - September 2024",
+    date: "September 2025 - Present",
     responsibilities: [
-      "Worked on a large-scale web platform as part of a full-stack development team.",
+      "Led full-stack development for a pickleball court reservation web platform from build to release.",
+      "Built a responsive React interface backed by Supabase for real-time database management, authentication, and server-side logic.",
+      "Integrated third-party services including Google Sheets API for administrative record syncing and Resend for automated email confirmations.",
+    ],
+  },
+  {
+    review: "Contributed to the development and maintenance of a large-scale web platform as part of the QA team. Focused on building features, fixing issues, and improving overall system quality while collaborating with team members and stakeholders to support stable releases and ongoing improvements.",
+    imgPath: "/images/react.png",
+    logoPath: "/images/react.png",
+    title: "Quality Assurance and Documentation Intern",
+    date: "October 2025 - December 2025",
+    responsibilities: [
+      "Worked on a large-scale web platform as part of the QA team.",
       "Contributed to building features, fixing issues, and improving overall system quality.",
       "Collaborated with team members and stakeholders to support stable releases and ongoing improvements.",
-    ],
-  },
-  {
-    review: "Developed Python-based data extraction and automation tools for network intelligence devices and databases, streamlining routine operations such as configuration checks, firmware updates, and license management. Monitored and troubleshot mobile data traffic, managed speed adjustments, and maintained device health through proactive maintenance and RMA processing.",
-    imgPath: "/images/python.png",
-    logoPath: "/images/python.png",
-    title: "Python Developer",
-    date: "May 2016 - August 2020",
-    responsibilities: [
-      "Built automation and data tools to support system monitoring and operations.",
-      "Assisted with network configuration, maintenance, and performance troubleshooting.",
-      "Supported device lifecycle tasks including updates, licensing, and issue resolution.",
-    ],
-  },
-  {
-    review: "Provided end-to-end network engineering support for clients, including WAN activation, MPLS-PIP integration, router configuration, port and PVC provisioning, and testing/acceptance of circuits such as E1, T1, and Ethernet. Coordinated with internal teams, field operations, and telecom partners while managing ticketing, client communications, network diagramming, and ensuring accurate system records and order verification.",
-    imgPath: "/images/cisco.png",
-    logoPath: "/images/cisco.png",
-    title: "Network Engineer",
-    date: "May 2012 - August 2016",
-    responsibilities: [
-      "Delivered end-to-end support for network setup, configuration, and deployment.",
-      "Troubleshot connectivity issues and coordinated with teams and external partners.",
-      "Maintained accurate system records and supported service verification.",
     ],
   },
 ];

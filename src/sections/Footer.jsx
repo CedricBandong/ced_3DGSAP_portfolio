@@ -7,7 +7,7 @@ const Footer = ({ language }) => {
         <div className="flex flex-col justify-center">
           <p>{
             language === 'en'
-              ? "Jeric's 3D Portfolio Site"
+              ? "Cedric's 3D Portfolio Site"
               : "ジェリック 個人 3D ポートフォリオサイト"
           }</p>
         </div>
@@ -22,7 +22,7 @@ const Footer = ({ language }) => {
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Jose Enrico Bandong. All rights reserved.
+            © {new Date().getFullYear()} Cedric Bandong. All rights reserved.
           </p>
         </div>
       </div>

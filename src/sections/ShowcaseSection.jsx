@@ -51,20 +51,14 @@ const AppShowcase = ({ language }) => {
             <div className="image-wrapper">
               <img src="/images/project1.png" alt="FlowFunds" />
             </div>
-            <div className="text-content">
-              {language === 'en'
-                ? <h2 style={{ fontSize: 30 }}>FlowFunds helps you manage spending and protect savings offline, with a calm design based on real-life habits. It promotes and rewards self-discipline, avoids AI and constant connectivity, and stays light on resources to help the environment.</h2>
-                : <h2 style={{ fontSize: 25 }}>FlowFundsは、実生活の習慣に基づいた落ち着いたデザインで、支出管理と貯蓄の保護をオフラインでサポートします。自制心を促し報いる仕組みを持ち、AIや常時接続を使わず、リソースに優しく環境にも配慮しています。</h2>
-              }
-              {language === 'en'
-                ? <p className="text-white-50 md:text-xl">
-                    Currently in development using React Native, Expo, and React Native Paper, with release planned for the Apple App Store and Google Play in Q1 2026.
-                  </p>
-                : <p className="text-white-50 md:text-xl">
-                    現在、React Native・Expo・React Native Paper を使用して開発中で、2026年 第1四半期に App Store および Google Play でのリリースを予定しています。
-                  </p>
-              }
+            <div className="text-content">  
+                <h2 style={{ fontSize: 30 }}>
+                  <a href="https://matchpointracketclub.com/">Match Point Racket Club</a>
+                  </h2>
               
+                <p className="text-white-50 md:text-xl">
+                  A modern booking platform for managing court reservations, approvals, and scheduling with a streamlined, user-friendly interface. Enabling players and admins to easily view availability, reserve courts, and handle bookings in real time.
+                </p>          
             </div>
           </div>
 
@@ -73,14 +67,11 @@ const AppShowcase = ({ language }) => {
               <div className="image-wrapper bg-[#18181B]">
                 <img
                   src="/images/project2.png"
-                  alt="Startup Management Showcase App"
+                  alt="Campus Events Management App"
                 />
               </div>
-              <a href="https://jf-nextjs15-startup-registration-bhw7.vercel.app/">
-                {language === 'en'
-                  ? <h2>Startup Management Showcase App</h2>
-                  : <h2>スタートアップ管理ショーケースアプリ</h2>
-                }
+              <a href="https://eventera100.lovable.app/auth">
+                <h2>Campus Events Management App</h2>
               </a>
             </div>
 
@@ -88,11 +79,8 @@ const AppShowcase = ({ language }) => {
               <div className="image-wrapper bg-[#18181B]">
                 <img src="/images/project3.png" alt="Others" />
               </div>
-              <a href="https://main--jeric-react-next-typescript-portfolio.netlify.app/#projects">
-                {language === 'en'
-                  ? <h2>Other React, React Native and Swift UI Showcase Apps</h2>
-                  : <h2>その他の React・React Native・SwiftUI ショーケースアプリ</h2>
-                }
+              <a href="https://saas-nynq8nshv-cedricbandongs-projects.vercel.app/">
+                  <h2>Learning Management System (LMS) SaaS platform</h2>
               </a>
             </div>
           </div>
