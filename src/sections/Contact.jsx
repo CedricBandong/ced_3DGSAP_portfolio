@@ -43,8 +43,8 @@ const Contact = ({ language }) => {
     <section id="contact" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
-          title={language === 'en' ? "Get in Touch – Let’s Connect" : "お問い合わせ – つながりましょう"}
-          sub={language === 'en' ? "Whether you have a question or just want to say hi, I'd love to hear from you!" : "ご質問やご挨拶など、どのようなことでもお気軽にご連絡ください。心よりお待ちしております。"}
+          title="Let’s Connect!"
+          sub="Get in touch"
         />
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-5">
