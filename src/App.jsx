@@ -9,6 +9,7 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
+import ChatBubble from "./components/ChatBubble";
 
 const App = () => {
   const [language, setLanguage] = useState('en');
@@ -86,6 +87,7 @@ const App = () => {
         </button>
       </div>
 
+      <ChatBubble language={language} />
       <Navbar language={language} setLanguage={setLanguage} />
       <Hero language={language} />
       <ShowcaseSection language={language} />

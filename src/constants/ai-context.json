@@ -1,0 +1,79 @@
+{
+  "name": "Cedric",
+  "tagline": "Web & Mobile Developer | CS Student | React · Next.js · React Native",
+  "about": "Computer Science student at New Era University with hands-on experience in full-stack web development. Passionate about building practical, user-focused applications using modern frameworks. Complemented by growing expertise in data science and machine learning.",
+  "location": "Quezon City, Philippines",
+  "experience": [
+    {
+      "title": "Quality Assurance and Documentation Intern",
+      "company": "BlastAsia Inc. - Xamun AI",
+      "period": "October 2025 – December 2025",
+      "description": "Performed quality assurance and documentation tasks for Xamun AI, an AI-powered product under BlastAsia Inc."
+    },
+    {
+      "title": "Full-stack Developer",
+      "company": "Match Point Racket Club",
+      "period": "September 2025 - Present",
+      "description": "A comprehensive pickleball court reservation system developed using React 18, TypeScript, and Vite, with Supabase serving as the backend for authentication, PostgreSQL database management, and file storage. Includes dynamic pricing, equipment rental, admin controls, Google Sheets integration, and automated email confirmations via Supabase Edge Functions."
+    }
+  ],
+  "skills": {
+    "frontend": ["React", "Next.js", "React Native", "TypeScript", "JavaScript", "Tailwind CSS", "Bootstrap"],
+    "backend": ["Supabase", "Firebase", "PostgreSQL"],
+    "tools": ["Tableau", "Excel", "PowerBI", "Git / GitHub", "Vite"],
+    "other": ["Data Science", "Machine Learning", "Java", "Python", "SQL"]
+  },
+  "projects": [
+    {
+      "name": "NEU-OJT-APP",
+      "description": "A cross-platform mobile application for NEU students undergoing On-the-Job Training (OJT), enabling students to manage requirements and track logged training hours.",
+      "tech": ["React Native", "Firebase"],
+      "link": ""
+    },
+    {
+      "name": "EventEra: Events Management Hub",
+      "description": "A centralized events management platform streamlining scheduling, registration, and coordination tasks to improve event organization and participant engagement.",
+      "tech": ["ReactJS", "Supabase"],
+      "link": ""
+    },
+    {
+      "name": "NEUnited: Student Organization Management Website",
+      "description": "A web-based system for managing student organizations, featuring membership tracking, activity logging, and resource management to enhance collaboration and transparency.",
+      "tech": ["ReactJS", "Supabase"],
+      "link": ""
+    },
+    {
+      "name": "Match Point Racket Club Reservation Website",
+      "description": "A web-based reservation system to manage pickleball court bookings. Integrated the Google Sheets API for syncing reservations with administrative records and the Resend API for automated email confirmations.",
+      "tech": ["ReactJS", "Supabase"],
+      "link": "https://matchpointracketclub.com/"
+    },
+    {
+      "name": "Converso: LMS SaaS App",
+      "description": "A Learning Management System (LMS) SaaS platform enabling real-time teaching and interactive learning experiences. Integrated Vapi to deliver live voice-enabled sessions and an AI-powered vocal agent to enhance engagement.",
+      "tech": ["Next.js", "Supabase", "Stripe", "Vapi"],
+      "link": "https://saas-app-one-indol.vercel.app/"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "New Era University",
+      "year": "2022 - Present"
+    },
+    {
+      "degree": "Science, Technology, Engineering, Mathematics (STEM) Strand",
+      "school": "San Francisco High School",
+      "year": "2020 - 2022"
+    }
+  ],
+  "contact": {
+    "email": "code.cedric.bandong@gmail.com",
+    "github": "https://github.com/CedricBandong",
+    "linkedin": "https://www.linkedin.com/in/cedric-bandong-b35419247/",
+    "other": "0947-427-5276"
+  },
+  "languages_spoken": ["English", "Filipino"],
+  "availability": "Open to opportunities",
+  "custom_instructions": ""
+}
